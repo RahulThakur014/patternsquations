@@ -36,6 +36,34 @@ public class patternsquations {
             }
             System.out.println(" ");
         }
+
+        // 4. Invert Half Pyramid
+        for (int i = 4; i >= 1; i--){ //  outer loop(rows)
+            // inner loop(colums)
+            for(int j = 1; j <= i; j++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+
+        
+        // 5. Inverted half pyramid (rotated by 180 degree)
+        int n = 4;
+
+        // outer loop
+        for(int i = 1; i <= n; i++){
+            // inner loop for space
+            for(int j = 1; j <= n-i; j++){
+                System.out.print(" ");
+            }
+
+            // another inner loop for star
+            for(int j = 1; j <= i; j++){
+                System.out.print("*");
+            }
+
+            System.out.println();
+        } 
         
     }
 
