@@ -5,4 +5,5 @@
 3. Half Pyramid Pattern
 4. Invert Half Pyramid
 5. Inverted half pyramid (rotated by 180 degree)
+6. Half pyramid with number
 
