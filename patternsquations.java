@@ -75,6 +75,50 @@ public class patternsquations {
             }
             System.out.println();
         }
+
+        // 7. Invert Half Pyramid with numbers
+        int n = 5;
+
+        //  outer loop
+        for (int i = 1; i <= n; i++){ 
+            // inner loop
+            for(int j = 1; j <= n-i+1; j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+
+        // 8. Floyds Triangle
+        int n = 5;
+        int num = 1;
+
+        //  outer loop
+        for (int i = 1; i <= n; i++){ 
+            // inner loop
+            for(int j = 1; j <= i; j++){
+                System.out.print(num+" ");
+                num++;
+            }
+            System.out.println();
+        }
+
+        // 9. On & Off pattern in half pyramid
+        int n = 5;
+
+        //  outer loop
+        for (int i = 1; i <= n; i++){ 
+            // inner loop
+            for(int j = 1; j <= i; j++){
+                int sum = j+i;
+                if (sum % 2 == 0){ //Even
+                    System.out.print("1 ");
+                }
+                else{ //odd
+                    System.out.print("0 ");
+                }
+            }
+            System.out.println();
+        }
         
     }
 
