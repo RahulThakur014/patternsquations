@@ -119,6 +119,42 @@ public class patternsquations {
             }
             System.out.println();
         }
+
+        // 10. Heart Shape Pattern
+
+        int n = 6;
+	    
+		for (int i = n / 2; i <= n; i += 2) {
+                // print first spaces
+                for (int j = 1; j < n - i; j += 2) {
+                    System.out.print(" ");
+                }
+                // print first stars
+                for (int j = 1; j <= i; j++) {
+                    System.out.print("*");
+                }
+                // print second spaces
+                for (int j = 1; j <= n - i; j++) {
+                    System.out.print(" ");
+                }
+                // print second stars
+                for (int j = 1; j <= i; j++) {
+                    System.out.print("*");
+                }
+                System.out.println();
+                }
+                // lower part
+                for (int i = n; i >= 1; i--) {
+                    // print leading spaces
+                    for (int j = i; j < n; j++) {
+                        System.out.print(" ");
+                    }
+                    // print stars
+                    for (int j = 1; j <= (i * 2) - 1; j++) {
+                        System.out.print("*");
+                    }
+                    System.out.println();
+            }
         
     }
 
