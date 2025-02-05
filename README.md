@@ -9,3 +9,4 @@
 7. Invert Half Pyramid with numbers
 8. Floyds Triangle
 9. On & Off pattern in half pyramid
+10. Heart Shape Pattern
